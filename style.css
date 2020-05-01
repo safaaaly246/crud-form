@@ -1,0 +1,36 @@
+
+
+.form-sec{
+    background-color: lavender;
+
+}
+.caption {
+    text-transform: capitalize;
+
+  }
+
+.container{
+    width: 60%;
+    padding: 50px;
+
+}
+.form-group{
+    width: 60%;
+    text-transform: capitalize;
+
+}
+.form-group input{
+    padding: 24px;
+
+}
+.form-group textarea{
+    /* padding: 50px; */
+    height:180px;
+}
+
+.btn-success{
+    padding: 8px 30px;
+}
+@media only screen and (max-width: 1200px){
+.container{width: 100%;}
+    }

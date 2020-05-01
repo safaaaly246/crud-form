@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <script src="jquery.js"></script>
+
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        
+        <script src="bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+
+<section class="container form-sec">
+<div class="caption text-center">
+    <h2>CRUD form</h2> 
+</div>
+            <div class="form-group offset-3">
+              <input type="hidden" value="create"  id="createData">
+              <input type="hidden" value=""  id="updatedata">
+
+
+              <label>User Name</label>
+              <input type="text" class="form-control" placeholder="Enter name" id="userName">
+            </div>
+            <div class="form-group offset-3">
+              <label>User Email</label>
+              <input type="email" class="form-control"placeholder="Enter email" id="userEmail">
+            </div>
+            <div class="form-group offset-3">
+                <label>User Password</label>
+                <input type="password" class="form-control"placeholder="Enter password" id="userPassword">
+              </div>
+              <div class="form-group offset-3">
+                <label>massage</label>
+                <!-- <input type="text" class="form-control"placeholder="Enter jobe" id="userMsg"> -->
+                <textarea  class="form-control"  id="userMsg">
+                  
+                </textarea>
+              </div>
+              <button class="btn btn-success offset-3"  id="sendBtn">Send</button>
+            </section>
+
+<section class="container">
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">name</th>
+                    <th scope="col">email</th>
+                    <th scope="col">password</th>
+                    <th scope="col">Massage</th>
+
+                    <th scope="col">control</th>
+
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                
+                  
+                </tbody>
+              </table>
+            </section>
+       
+        <script src="main.js"></script>
+
+        </body>
+        </html>
